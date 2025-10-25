@@ -1,0 +1,18 @@
+label {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #7a7a7a;
+    font-family: 'Courier New', monospace;
+}
+label {
+    font-family: var(--label-font-sans);
+    font-size: var(--label-size);
+    line-height: var(--label-line-height);
+    font-weight: var(--label-weight);
+    color: var(--label-color);
+    display: block;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.01em;
+}
+
+   
